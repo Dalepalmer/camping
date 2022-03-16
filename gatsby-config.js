@@ -1,7 +1,9 @@
 module.exports = {
+  pathPrefix: "/camping",
   siteMetadata: {
-      title: `camping-bday`,
-    siteUrl: `https://www.yourdomain.tld`
+      siteUrl: `https://dalepalmer.dev`,
+      icon: './src/images/favicon.ico'
   },
+  
   plugins: ["gatsby-plugin-styled-components"]
 };
