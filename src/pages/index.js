@@ -1,5 +1,6 @@
 import * as React from "react"
 import "../styles/index.css"
+import frog from "../images/frog.png"
 
 // styles
 const pageStyles = {
@@ -11,7 +12,7 @@ const pageStyles = {
 const frogDiv = {
   color: "#232129",
   padding: 96,
-  background: "url('http://images.clipartpanda.com/frog-clip-art-frog_green.png')",
+  background: `url(${frog})`,
   backgroundSize: "contain",
   height: "100vh",
   backgroundRepeat: "no-repeat",
@@ -110,8 +111,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <div style={frogDiv}>
-      <title>Home Page</title>
-      <link rel="icon" type="image/png" href="../images/favicon.ico"/>
+      <title>Camping 2022 - Thirty Thrive</title>
       <div style={jumbotronStyles}>
       <h1 className="draw" style={headingStyles}>
         Memorial Day Camping!
