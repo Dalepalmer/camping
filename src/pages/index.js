@@ -58,7 +58,7 @@ const IndexPage = () => {
          <li>When: May 28th - May 30th</li>
          <li>
            <p>Where: Frog Lake, Mt Hood National Forest</p>
-            <a href="fs.usda.gov/recarea/mthood/recarea/?recid=53102">Forest Service Site</a>
+            <a href="https://fs.usda.gov/recarea/mthood/recarea/?recid=53102">Forest Service Site</a>
            </li>
          
        </ul>
