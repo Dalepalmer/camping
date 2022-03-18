@@ -21,7 +21,26 @@
 .draw::after {
   bottom: 0;
   right: 0;
-  animation: border 5s 2.9s infinite, borderColor 5s 2.9s infinite;
+  animation: border 5s 2.8s infinite, borderColor 5s 2.8s infinite;
+}
+
+.spin {
+  animation: spin 5s infinite
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
 }
 
 @keyframes border {

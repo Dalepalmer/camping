@@ -17,9 +17,13 @@ const frogDiv = {
   padding: "1em",
   background: `url(${frog})`,
   backgroundSize: "contain",
-  height: "100vh",
+  height: "120vh",
   backgroundRepeat: "no-repeat",
   fontFamily: "fantasy",
+  flex: .5,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
 }
 const headingStyles = {
   marginTop: 0,
@@ -28,14 +32,16 @@ const headingStyles = {
   textAlign: "center"
 }
 const jumbotronStyles = {
-  backgroundColor: "#ffffff7a",
+  backgroundColor: "rgb(28 200 239 / 53%)",
   backdropFilter: "blur(1px)",
   border: "purple 1px solid",
   padding: 20
 }
 const paragraphStyles = {
-  fontWeight: 500,
-  textShadow: "1 1 white"
+  display: 'flex',
+  fontWeight: 900,
+  textShadow: "#868689 0px 0px 11px",
+  fontSize: 20
 }
 
 // markup
@@ -48,21 +54,53 @@ const IndexPage = () => {
       <h1 className="draw" style={headingStyles}>
         Memorial Day Camping!
         <br/>
-        <span role="img" aria-label="Party popper emojis">
+        <span className="spin" role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
       </h1>
       <div style={paragraphStyles}>
-       Info:
-       <ul>
-         <li>When: May 28th - May 30th</li>
-         <li>
-           <p>Where: Frog Lake, Mt Hood National Forest</p>
-            <a href="https://fs.usda.gov/recarea/mthood/recarea/?recid=53102">Forest Service Site</a>
-           </li>
-         
-       </ul>
+        <div  style={{flex: 1}}>
+          <p style={{textAlign: "center"}}>Info:</p>
+          <ul>
+            <li>When: May 28th - May 30th</li>
+            <li>
+              Where: Frog Lake, Mt Hood National Forest
+            </li>
+            <li>
+              <a href="https://fs.usda.gov/recarea/mthood/recarea/?recid=53102">Frog Lake - Forest Service</a>
+            </li>
+            <li>
+              <a href="https://www.recreation.gov/camping/campgrounds/232848">Frog Lake - Recreation</a>
+            </li>
+            <li>
+              What: Fun, Food and Friends
+            </li>
+          </ul>
+        </div>
+        <div style={{flex: 1}}>
+          <p style={{textAlign: "center"}}>Activities:</p>
+          <ul>
+            <li>Biking -&gt; 
+              <a href="https://bikepacking.com/routes/frog-lake-loop/">Frog Lake Look</a>
+            </li>
+            <li>Hiking -&gt; 
+              <a href="https://www.alltrails.com/explore/trail/us/oregon/frog-lake-butte-road">
+                Frog Buttes
+              </a> 
+            </li>
+            <li>Fishing -&gt; Stocked early in the season with rainbow trout</li>
+            <li>Frisbee</li>
+            <li>Charades</li>
+            <li>Food -&gt; Thinking veggie forward and maybe some bonfire pizza</li>
+          </ul>
+        </div>
       </div>
+      <p>
+        Feedback is welcome as well as appreciated!
+      </p>
+      <p>
+        Please text me with design ideas for the site and general ideas for the weekend.
+      </p>
       </div>
       </div>
     </main>
