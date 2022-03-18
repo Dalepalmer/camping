@@ -35,7 +35,8 @@ const jumbotronStyles = {
   backgroundColor: "rgb(28 200 239 / 53%)",
   backdropFilter: "blur(1px)",
   border: "purple 1px solid",
-  padding: 20
+  padding: 20,
+  width: "66vw"
 }
 const paragraphStyles = {
   display: 'flex',
