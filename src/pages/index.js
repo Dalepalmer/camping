@@ -64,7 +64,7 @@ const IndexPage = () => {
           <p style={{textAlign: "center"}}>Info:</p>
           <ul>
             <li>When: Friday May 27th - Monday May 30th</li>
-            <li>Drop in any of day!</li>
+            <li>Drop in anyday!</li>
             <li>
               Where: Frog Lake, Mt Hood National Forest
             </li>
