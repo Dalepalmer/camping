@@ -63,7 +63,8 @@ const IndexPage = () => {
         <div  style={{flex: 1}}>
           <p style={{textAlign: "center"}}>Info:</p>
           <ul>
-            <li>When: May 28th - May 30th</li>
+            <li>When: Friday May 27th - Monday May 30th</li>
+            <li>Drop in any of day!</li>
             <li>
               Where: Frog Lake, Mt Hood National Forest
             </li>
@@ -90,6 +91,7 @@ const IndexPage = () => {
               </a> 
             </li>
             <li>Fishing -&gt; Stocked early in the season with rainbow trout</li>
+            <li>Maybe Boats</li>
             <li>Frisbee</li>
             <li>Charades</li>
             <li>Food -&gt; Thinking veggie forward and maybe some bonfire pizza</li>
