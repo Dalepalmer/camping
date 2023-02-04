@@ -52,7 +52,10 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <div style={frogDiv}>
-        <img style={frogPic} src={cabin} />
+        <img
+          style={frogPic}
+          src="https://www.fs.usda.gov/Internet/FSE_MEDIA/fsbdev2_021128.jpg"
+        />
         <title>Camping 2022 - Thirty Thrive</title>
         <div style={jumbotronStyles}>
           <h1 style={headingStyles}>
