@@ -1,6 +1,5 @@
 import * as React from "react";
 import "../styles/index.css";
-import cabin from "../images/cabin.jpeg";
 
 // styles
 const pageStyles = {
@@ -24,6 +23,7 @@ const frogDiv = {
 const frogPic = {
   backgroundSize: "contain",
   backgroundRepeat: "no-repeat",
+  maxWidth: "100%",
   margin: "0 0 20px 0",
   borderRadius: "20px",
 };
@@ -45,6 +45,7 @@ const paragraphStyles = {
   display: "flex",
   fontWeight: 900,
   fontSize: 20,
+  flexDirection: "column",
 };
 
 // markup
